@@ -264,9 +264,10 @@ const getText = (id, {
     </header>
     <li>
       
-        <button class="btn plus" onclick="adicionarQtd(${id}, ${qtd})"> + </button>
-        <p> ${qtd} </p>
         <button class="btn minus" onclick="removerQtd(${id}, ${qtd})"> - </button>
+        <p> ${qtd} </p>
+        <button class="btn plus" onclick="adicionarQtd(${id}, ${qtd})"> + </button>
+        
       
     </li>
     <section>
